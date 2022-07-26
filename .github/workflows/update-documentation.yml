@@ -1,7 +1,6 @@
 name: Update Docc documentation
 on:
-  release:
-    types: [published]
+  [push]
 jobs:
     update-api-documentation:
         runs-on: macos-12
